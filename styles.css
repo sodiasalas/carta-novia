@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+}
+
+#cartel h1 {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+#botones button {
+    font-size: 1.2em;
+    padding: 20px 40px;
+    margin: 20px;
+    background: linear-gradient(45deg, #ff6347, #ff1493, #ff69b4);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#botones button:hover {
+    transform: scale(1.1);
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ff69b4;
+}
+
+#heartButton {
+    font-size: 2em;
+    background: linear-gradient(45deg, #ff1493, #ff6347);
+    color: white;
+    border-radius: 50%;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#heartButton:hover {
+    background: linear-gradient(45deg, #ff6347, #ff69b4);
+    transform: scale(1.1);
+}
+
+#fondoCorazones {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.transparenttextures.com/patterns/heart.png');
+    background-repeat: repeat;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+
